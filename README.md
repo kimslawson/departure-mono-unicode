@@ -29,8 +29,8 @@ Each glyph occupies 7 lines of 7 characters. Two pixel rows are packed into one 
 U+0041 A LATIN CAPITAL LETTER A
 
    ▄
-  ▀ ▀
- ▄▄▄▄▄
+ ▄▀ ▀▄
+ █▄▄▄█
  █   █
  ▀   ▀
 
