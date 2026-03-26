@@ -40,4 +40,4 @@ Each entry: a `U+XXXX <char> NAME` header, 7 lines of block characters, then a b
 
 ## License
 
-The glyphs are derived from [Departure Mono](https://github.com/rektdeckard/departure-mono) by [Tobias Fried](https://github.com/rektdeckard), released under the [SIL Open Font License 1.1](https://scripts.sil.org/OFL). The generation script is MIT licensed.
+The glyphs are derived from [Departure Mono](https://github.com/rektdeckard/departure-mono) by [Helena Zhang](https://www.helenazhang.com/) ([@minoraxis](https://github.com/minoraxis)), released under the [SIL Open Font License 1.1](https://scripts.sil.org/OFL). The font repo is hosted by [Tobias Fried](https://github.com/rektdeckard), who built the font's website. The generation script is MIT licensed.
