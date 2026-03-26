@@ -1,5 +1,5 @@
 # Departure Mono — Unicode Block Character Glyphs
-# Font: Departure Mono v1.500 by Tobias Fried
+# Font: Departure Mono v1.500 by Helena Zhang (https://www.helenazhang.com/)
 # License: SIL Open Font License 1.1
 #
 # Each glyph is 7 columns × 14 rows rendered as 7 lines of block characters.
