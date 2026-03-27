@@ -11,13 +11,19 @@ Each glyph is rendered to a 7x14 pixel grid, then encoded using:
 Output: 7 characters wide × 7 lines tall per glyph.
 """
 
+import argparse
 import sys
 import unicodedata
 from fontTools import ttLib
 from PIL import Image, ImageDraw, ImageFont
 
-FONT_PATH = "/Users/kim/Downloads/DepartureMono-1.500/DepartureMono-Regular.otf"
-OUTPUT_PATH = "/Users/kim/Repositories/departure-mono-unicode/departure-mono-glyphs.txt"
+parser = argparse.ArgumentParser(description="Generate unicode block glyphs from a font file.")
+parser.add_argument("--font", help="Path to the .otf/.ttf font file")
+parser.add_argument("--output", help="Path for the output .txt file")
+args = parser.parse_args()
+
+FONT_PATH = args.font or input("Font path: ").strip()
+OUTPUT_PATH = args.output or input("Output path: ").strip()
 
 FONT_SIZE = 11   # 11pt @ 72dpi → 7px advance width, 14px cell height
 CELL_W = 7
